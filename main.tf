@@ -19,8 +19,8 @@ resource "azurerm_resource_group" "aks-rg2" {
   name     = "my-terraform-gr"
   location = "Central US"
 
- tags = {
-   "environment" = "k8sdev"
- }
-
+  tags = {
+    "environment" = "k8sdev"
+  }
+  
 }
